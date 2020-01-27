@@ -13,7 +13,7 @@ the route list for the first project are : <br/>
 http://localhost:3000/players<br />
 http://localhost:3000/players:73<br />
 <hr>
-the route list for the first project are : <br/>
+the route list for the second project are : <br/>
 http://localhost:3000/name-list<br />
 http://localhost:3000/most-common-first-name<br />
 http://localhost:3000/most-common-last-name<br />
