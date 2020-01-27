@@ -11,7 +11,7 @@ if not, you can download them from their official website.<br />
 
 For the first project, the route list are : <br/>
 http://localhost:3000/players<br />
-http://localhost:3000/player/73<br />
+http://localhost:3000/player/102<br />
 <br/>
 For the second project, the route list are : <br/>
 http://localhost:3000/name-list<br />
