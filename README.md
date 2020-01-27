@@ -12,7 +12,7 @@ if not, you can download them from their official website.<br />
 the route list for the first project are : <br/>
 http://localhost:3000/players<br />
 http://localhost:3000/players:73<br />
-<hr>
+<br/>
 the route list for the second project are : <br/>
 http://localhost:3000/name-list<br />
 http://localhost:3000/most-common-first-name<br />
