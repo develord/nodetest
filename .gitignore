@@ -1,0 +1,7 @@
+node_modules
+.vs_code
+.vscode
+package-lock.json
+.env
+dev.env
+prod.env
