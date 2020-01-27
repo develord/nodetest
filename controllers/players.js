@@ -1,20 +1,8 @@
-const fs = require('fs')
-const { promisify } = require('util')
-const readFileAsync = promisify(fs.readFile)
 const { wrapper } = require('../tools/funcWrapper')
 const axios = require('axios')
 const options = {
   method: 'GET',
   url: `https://alivebyacadomia.github.io/headtohead.json`
-}
-
-module.exports.readFiles = async (req, res) => {
-  const contents = readFileAsync(`${__dirname}/student.txt`, 'utf8')
-  const { error, data } = await wrapper(contents)
-  if (error || data <= 0) {
-    return res.status(500).send({ message: 'There was a problem deleting the user' })
-  }
-  res.send(data)
 }
 
 module.exports.getPlayers = async (req, res) => {
